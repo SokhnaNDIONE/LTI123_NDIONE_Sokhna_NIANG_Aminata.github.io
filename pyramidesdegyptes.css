@@ -1,0 +1,140 @@
+header{
+    background-color: white;
+    height: 500px;
+    width: 800px;
+    margin-left: 17%;
+}
+
+body{
+    background-image: url(fond-ecran-ipad-2-1024x1024.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 6450px;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-weight: 600;
+   font-size: 40px;
+    text-align: center;
+    font-family: century;
+    text-decoration-style: wavy;
+    color: white;
+ }
+
+video{
+    margin-left: 9%;
+}
+/*rgb(236, 161, 173) couleur au cas ou*/
+.text{
+    font-weight: 500;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    background-color: wheat;
+    border: 1px solid wheat;
+   border-top-right-radius: 5vmax;
+   border-top-left-radius: 5vmax;
+   border-bottom-left-radius: 5vmax;
+   border-bottom-right-radius: 5vmax;
+}
+
+
+.section1{
+    background-color: white;
+    height: 500px;
+    width: 800px;
+    margin-left: 17%;
+    margin-top: 1%;
+
+}
+
+.texte{
+    font-family: century;
+    font-size: 19.2px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    word-spacing: 2px;
+    padding: 8px;
+}
+/*rgb(203, 112, 9)*/
+.texte1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-family: century;
+    word-spacing: 2px;
+}
+/*.section2{
+    background-color: white;
+    height: 500px;
+    width: 800px;
+}*/
+
+img{
+    width: 580px;
+    margin-left: 12.4%;
+    margin-top: 3%;
+    border: 1.5px solid;
+    border-top-right-radius: 2vmax;
+    border-top-left-radius: 2vmax;
+    border-bottom-right-radius: 2vmax;
+    border-bottom-left-radius: 2vmax;
+}
+
+.mots{
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    font-family: century;
+    padding: 10px;
+    color: orange;
+}
+
+.section2{
+    background-color: white;
+    height: 560px;
+    width: 800px;
+    margin-left: 17%;
+    margin-top: 1%;
+}
+.mot{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: century;
+    color: orange;
+}
+.texte2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: century;
+    padding: 35px;
+    word-spacing: 6px;
+}
+.img1{
+    width: 530px;
+    margin-left: 15%;
+}
+.texte3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: century;
+    padding: 20px;
+    word-spacing: 7px;
+}
+.img2{
+    width: 140px;
+    display: flex;
+    float: left;
+    margin-left: 2%;
+    margin-top: -2%;
+}
+.img3{
+    width: 150px;
+    display: flex;
+    float: right;
+    margin-left: 2%;
+    margin-top: 3%;
+}
