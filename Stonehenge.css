@@ -1,0 +1,152 @@
+body{
+    background-image: url(fond-ecran-ipad-2-1024x1024.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 4750px;
+    background-repeat: no-repeat;
+ }
+ header{
+     background-color: white;
+     height: 500px;
+     width: 800px;
+     margin-left: 17%;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+     
+ 
+ }
+ .substile{
+    font-size: 25px;
+    padding: 12px;
+    font-weight: 600;
+    text-align: center;
+    font-family: century;
+ }
+ h1{
+     font-weight: 600;
+    font-size: 40px;
+     text-align: center;
+     font-family: century;
+     text-decoration-style: wavy;
+     color: white;
+  }
+  .texte1{
+    font-weight: 700;
+    font-family: century;
+    padding: 5px;
+    font-size: 22px;
+  }
+img{
+    width: 600px;
+}
+ .imagesstonehenge{
+     display: flex;
+     animation-duration: 40s;
+     animation-name: image;
+     animation-iteration-count: infinite;
+     animation-direction: alternate-reverse;
+     animation-direction: alternate;
+ }
+ .Stonehenge{
+     width: 600px;
+     overflow: hidden;
+     border: 1px solid white;
+     border-top-right-radius: 2vmax;
+     border-top-left-radius: 2vmax;
+     border-bottom-right-radius: 2vmax;
+     border-bottom-left-radius: 2vmax;
+     
+ }
+ @keyframes image{
+     0%{transform: translateX(0);
+ 
+     }
+     25%{
+         transform: translateX(-600px);
+     }
+     50%{
+         transform: translateX(-1200px);
+     }
+     75%{
+         transform: translateX(-1800px);
+     }
+     85%{
+         transform: translateX(-2400px);
+     }
+     
+     100%{
+         transform: translateX(0);
+     }
+ }
+ .section1{
+     background-color: white;
+     height: 500px;
+     width: 800px;
+     margin-left: 17%;
+     margin-top: 1%;
+     background-color: white;
+ }
+ 
+ .mots{
+     font-size: 28px;
+     font-weight: 800;
+     text-align: center;
+     font-family: century;
+     padding: 15px;
+     color: palevioletred;
+ }
+ 
+ .texte{
+     font-size: 20px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      font-family: century;
+      word-spacing: 4px;
+      padding: 12px;
+ }
+ .img1{
+     width: 560px;
+     border: 1px solid ;
+     border-top-right-radius: 1vmax;
+     border-top-left-radius: 1vmax;
+     border-bottom-right-radius: 1vmax;
+     border-bottom-left-radius: 1vmax;
+     margin-left: 15%;
+     margin-top: 2%;
+ }
+ 
+ .img3{
+    width: 380px;
+    border: 1px solid ;
+    border-top-right-radius: 1vmax;
+    border-top-left-radius: 1vmax;
+    border-bottom-right-radius: 1vmax;
+    border-bottom-left-radius: 1vmax;
+    margin-left: 1%;
+    margin-top: 0.5%;
+    display: flex;
+    float: left;
+ }
+ .section2{
+     background-color: white;
+     height: 560px;
+     width: 800px;
+     margin-left: 17%;
+    margin-top: 1%;
+    
+ }
+ 
+ .mde{
+     width: 430px;
+     border: 3px solid transparent ;
+     border-top-right-radius: 1vmax;
+     border-top-left-radius: 1vmax;
+     border-bottom-right-radius: 1vmax;
+     border-bottom-left-radius: 1vmax;
+     margin-left: 1%;
+     margin-top: 2.5%;
+     float: left;
+     display: flex;
+ }
+ 
