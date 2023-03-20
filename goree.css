@@ -1,0 +1,206 @@
+body{
+   background-image: url(fond-ecran-ipad-2-1024x1024.jpg);
+ background-position: center;
+background-size: cover;
+height: 3780px;
+background-repeat: no-repeat;
+}
+header{
+    background-color: white;
+    height: 500px;
+    width: 800px;
+    margin-left: 17%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+
+}
+h1{
+    font-weight: 600;
+   font-size: 40px;
+    text-align: center;
+    font-family: century;
+    text-decoration-style: wavy;
+    color: white;
+ }
+ img{
+    width: 600px;
+    
+}
+.goree{
+    display: flex;
+    animation-duration: 40s;
+    animation-name: image;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-direction: alternate;
+}
+.imagesgoree{
+    width: 600px;
+    overflow: hidden;
+    border: 1.5px solid;
+    border-top-right-radius: 2vmax;
+    border-top-left-radius: 2vmax;
+    border-bottom-right-radius: 2vmax;
+    border-bottom-left-radius: 2vmax;
+    
+}
+@keyframes image{
+    0%{transform: translateX(0);
+
+    }
+    15%{
+        transform: translateX(-600px);
+    }
+    25%{
+        transform: translateX(-1200px);
+    }
+    35%{
+        transform: translateX(-1800px);
+    }
+    45%{
+        transform: translateX(-2400px);
+    }
+    55%{
+        transform: translateX(-3000px);
+    }
+    65%{
+        transform: translateX(-3600px);
+    }
+    75%{
+        transform: translateX(-4200px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.text{
+    font-size: 20px;
+   text-align: center;
+   padding: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: century;
+    word-spacing: 3px;
+}
+.section1{
+    background-color: white;
+    height: 500px;
+    width: 800px;
+    margin-left: 17%;
+    margin-top: 1%;
+}
+
+.mots{
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    font-family: century;
+    padding: 15px;
+    color: blue;
+}
+.imagegoree{
+    width: 650px;
+    border-top-right-radius: 2vmax;
+    border-top-left-radius: 2vmax;
+    border-bottom-right-radius: 2vmax;
+    border-bottom-left-radius: 2vmax;
+    border: 1.5px solid;
+    margin-left: 8%;
+    margin-top: 2%;
+    padding: 3px;
+
+}
+.substile{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: century;
+}
+.texte{
+    font-size: 20px;
+     letter-spacing: 1px;
+     font-weight: 600;
+     font-family: century;
+     word-spacing: 4px;
+     padding: 12px;
+}
+.img1{
+    width: 350px;
+}
+
+.archives{
+    margin-top: 2%;
+   overflow: hidden;
+    width: 350px;
+    border: 1.8px solid ;
+    border-top-right-radius: 1vmax;
+    border-top-left-radius: 1vmax;
+    border-bottom-right-radius: 1vmax;
+    border-bottom-left-radius: 1vmax;
+    margin-left: 1%;
+    float: left;
+}
+.mesimages2{
+    display: flex;
+    width: 350px;
+    animation-name: archive;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes archive{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-350px);
+    }
+    45%{
+        transform: translateX(-700px);
+    }
+    75%{
+        transform: translateX(-1050px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.section2{
+    background-color: white;
+    height: 560px;
+    width: 800px;
+    margin-left: 17%;
+    margin-top: 1%;
+}
+.mde{
+    width: 450px;
+    border: 1px solid transparent;
+    border-top-right-radius: 1vmax;
+    border-top-left-radius: 1vmax;
+    border-bottom-right-radius: 1vmax;
+    border-bottom-left-radius: 1vmax;
+    margin-left: 20%;
+}
+.img3{
+    width: 580px;
+    border: 1px solid ;
+    border-top-right-radius: 1vmax;
+    border-top-left-radius: 1vmax;
+    border-bottom-right-radius: 1vmax;
+    border-bottom-left-radius: 1vmax;
+    margin-left: 14%;
+    margin-top: 2%;
+ }
+ .FIN{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-family: century;
+    word-spacing: 4px;
+    padding: 15px;
+    text-align: center;
+   
+ }
